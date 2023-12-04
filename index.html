@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Sports Climbing</title>
+    <meta charset="utf-8">
+    <style>
+        body {margin: 0;}
+        h1 {
+            font-size: 50px; 
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 0;
+            padding: 20px;
+        }
+        h3 {margin: 0;}
+        ol {
+            border-right: 1px solid gray;
+            width: 150px;
+            margin: 0;
+            padding: 25px;
+        }
+        #grid {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+        }
+        #grid ol {
+            padding-left: 50px;
+        }
+        #picture {
+            padding: 8px;
+            padding-left: 20px;
+        }
+        @media(max-width:500px) {
+            #grid{
+                display:block;}
+            ol{
+                border-right:none;}
+            h1{
+                border-bottom:none;}    
+        }
+        a {text-decoration: none;}
+    </style>
+</head>
+<body>
+<h1>Sports Climbing</h1>
+<div id="grid">
+    <ol>
+        <h3><li>종목</li></h3>
+            <ul>
+                <li><a href="speed.html">스피드(Speed)</a></li>
+                <li><a href="bouldering.html">볼더링(Bouldering)</a></li>
+                <li><a href="lead.html">리드(Lead)</a></li>
+            </ul>
+            <br>
+         <h3><li>기술</li></h3>
+            <ul>
+                <li><a href="technic.html">기본 기술</a></li>
+                <li><a href="dynamic.html">다이나믹 기술</a></li>
+            </ul>
+            <br>
+         <h3><li>명칭</li></h3>
+            <ul>
+                <li><a href="title.html">암벽의 명칭</a></li>    
+            </ul>
+    </ol>
+    <div id="picture">
+    <p>
+    스포츠 클라이밍이란?<br>
+    인공암벽등반으로 인공으로 만든 암벽을 등반하는 스포츠이다<br>    
+    <img src="1.jpeg" width="450">
+    </p>
+    </div>
+</div>   
+</body>    
+</html>
